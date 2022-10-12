@@ -29,6 +29,8 @@ const Imagem = styled.img`
 
 const Texto = styled.p`
     margin-left: 24px;
+    position: relative;
+    top: 5px;
 `
 
 const ContainerTexto = styled.div`
@@ -53,6 +55,9 @@ const Botao = styled.button`
     border-radius: 21px;
     margin-top: 25px;
     border: 1px solid black;
+    &:hover{
+        border: 3px solid black;
+    }
 `
 
 export{

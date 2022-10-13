@@ -6,8 +6,6 @@ const Card: React.FC = () => {
 
     return (
         <Container>
-           
-            
             <ContainerDados>
                 <Titulo>Mustang</Titulo>
                 <ContainerTexto>
@@ -32,8 +30,6 @@ const Card: React.FC = () => {
             src="src/assets/image 11.png" 
             alt="Mustang" 
             />
-            
-            
         </Container>
     );
 };

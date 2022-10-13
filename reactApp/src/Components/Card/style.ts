@@ -1,11 +1,21 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-    padding: 0;
-    margin:0;
-    width: 17.563rem;
-    height: 29.75rem;
-    position: relative;
+
+    @media(max-width:400px) {
+        padding: 0;
+        margin: 40px;
+        width: 281px;
+        height: 476px;  
+    }    
+
+    @media(min-width: 410px){
+        padding: 0;
+        margin:0;
+        width: 281px;
+        height: 476px; 
+    }
+    
 `
 
 const ContainerDados = styled.div`
@@ -25,6 +35,8 @@ const Imagem = styled.img`
     position: relative;
     z-index: 10;
     left: 10px;
+    padding-bottom: 10px;
+    height: 150px;
 `
 
 const Texto = styled.p`

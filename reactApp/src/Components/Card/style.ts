@@ -32,11 +32,24 @@ const ContainerDados = styled.div`
 `
 
 const Imagem = styled.img`
-    position: relative;
-    z-index: 10;
-    left: 10px;
-    padding-bottom: 10px;
-    height: 150px;
+
+    @media(max-width: 400px){
+        position: relative;
+        z-index: 10;
+        top:50px;
+        left: 10px;
+        padding-bottom: 10px;
+        height: 150px; 
+    }
+    
+    @media(min-width: 410px){
+        position: relative;
+        z-index: 10;
+        left: 10px;
+        padding-bottom: 10px;
+        height: 150px;    
+    }
+    
 `
 
 const Texto = styled.p`

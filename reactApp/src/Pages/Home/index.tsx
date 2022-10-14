@@ -5,6 +5,8 @@ import { Header } from "../../Components/Header"
 import { Scroll, Elipse, Botao, Parte} from "./style"
 import { Icon } from "@iconify/react"; 
 
+
+
 const Home: React.FC = () => {   
 
     return (
